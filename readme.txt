@@ -1,4 +1,4 @@
-=== Spanish Setup for TheCartPress, eCommerce Shopping Cart ===
+=== Spanish eCommerce for TheCartPress ===
 Contributors: thecartpress
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
