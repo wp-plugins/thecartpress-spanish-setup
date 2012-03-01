@@ -3,7 +3,7 @@ Contributors: thecartpress
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
 Tested up to: 3.3
-Stable Tag: 1.1.7.3
+Stable Tag: 1.0.0
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
