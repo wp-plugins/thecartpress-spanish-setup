@@ -1,15 +1,15 @@
-=== Spanish Setup for TheCartPress, eCommerce Shopping Cart ===
+=== Spanish eCommerce for TheCartPress ===
 Contributors: thecartpress
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
 Tested up to: 3.3
-Stable Tag: 1.0.0
+Stable Tag: 1.1.8
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
 == Description ==
 
-Spanish setup for TheCartPress adds the spanish language files and a button to configurate the stores with Spanish currency, etc.
+Spanish setup for TheCartPress adds the spanish language files and a button to configure the stores with Spanish currency, etc.
 Also, it adds Spanish regions
 
 TheCartPress is the Professional WordPress eCommerce Plugin. Use it as shopping cart, catalog or framework.
