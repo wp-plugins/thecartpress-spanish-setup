@@ -3,7 +3,7 @@ Contributors: thecartpress
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
 Tested up to: 3.3
-Stable Tag: 1.1.8
+Stable Tag: 1.1.8.1
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
@@ -47,5 +47,11 @@ This plugin is released under a GPL license.
 
 
 == Changelog ==
+= 1.1.8.1 =
+Supports TheCartPress 1.1.8.1
+
+= 1.1.8 =
+Supports TheCartPress 1.1.8
+
 = 1.0 =
 First public version.

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tcp-discount\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 09:34+0100\n"
+"POT-Creation-Date: 2012-04-12 09:01+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: sensei <sensei@thecartpress.com>\n"
+"Last-Translator: Sensei <sensei@thecartpress.com>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ../../thecartpress-discounts/\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -25,71 +25,71 @@ msgstr "<strong>Descuentos parar TheCartPress</strong>requiere el plugin de TheC
 msgid "Discounts"
 msgstr "Descuentos"
 
-#: TCPDiscount.class.php:134
+#: TCPDiscount.class.php:146
 #, php-format
 msgid "(Discount -%s)"
 msgstr "(Descuento -%s)"
 
-#: TCPDiscount.class.php:150
+#: TCPDiscount.class.php:159
 #, php-format
 msgid "(%s&#37; Off)"
 msgstr "(%s&#37; de descuento)"
 
-#: TCPDiscount.class.php:165
+#: TCPDiscount.class.php:164
 msgid "Free shipping!"
 msgstr "Sin gastos de envío"
 
-#: TCPDiscount.class.php:221
+#: TCPDiscount.class.php:222
 #, php-format
 msgid "(%s off)"
 msgstr "(%s de descuento)"
 
-#: TCPDiscount.class.php:240
-#: admin/Discounts.php:434
-#: admin/Discounts.php:446
+#: TCPDiscount.class.php:241
+#: admin/Discounts.php:435
+#: admin/Discounts.php:447
 msgid "Coupon code"
 msgstr "Código de cupón"
 
-#: TCPDiscount.class.php:241
+#: TCPDiscount.class.php:242
 msgid "Add coupon"
 msgstr "Añadir cupón"
 
-#: TCPDiscount.class.php:242
+#: TCPDiscount.class.php:243
 msgid "Remove coupon"
 msgstr "Borrar cupón"
 
-#: TCPDiscount.class.php:243
+#: TCPDiscount.class.php:244
 msgid "The Coupon is invalid or it is out of date. Remember that there are coupons for registered users only."
 msgstr "El cupón no es correcto o está fuera de fecha. Recuerde que existen cupones sólo para usuarios registrados"
 
-#: TCPDiscount.class.php:391
+#: TCPDiscount.class.php:404
 msgid "Coupon"
 msgstr "Cupón"
 
-#: TCPDiscount.class.php:393
+#: TCPDiscount.class.php:406
 msgid "no limit"
 msgstr "Sin límite"
 
-#: TCPDiscount.class.php:394
+#: TCPDiscount.class.php:407
 #, php-format
 msgid "Code: %s, Type: %d&#37;, from: %s to %s"
 msgstr "Código: %s, Tipo: %d&#37;, desde: %s hasta %s"
 
-#: TCPDiscount.class.php:395
+#: TCPDiscount.class.php:408
 #, php-format
 msgid "Code: %s, Type: %s, Amount: %d, from: %s to %s"
 msgstr "Código: %s, Tipo: %s, Cantidad: %d, desde: %s hasta %s"
 
-#: TCPDiscount.class.php:405
+#: TCPDiscount.class.php:418
 msgid "Coupons used"
 msgstr "Cupones usados"
 
-#: TCPDiscount.class.php:408
+#: TCPDiscount.class.php:421
 #, php-format
 msgid "Code: %s, Type: %d&#37;"
 msgstr "Código: %s, Tipo: %d&#37;"
 
-#: TCPDiscount.class.php:409
+#: TCPDiscount.class.php:422
 #, php-format
 msgid "Code: %s, Type: %s, Amount: %d"
 msgstr "Código: %s, Tipo: %s, Cantidad: %d"
@@ -108,7 +108,7 @@ msgstr "Uno de los campos, \"Descuento\" o \"Máximo\", no puede ser cero"
 
 #: admin/Discounts.php:51
 #: admin/Discounts.php:187
-#: admin/Discounts.php:390
+#: admin/Discounts.php:391
 msgid "Discount added"
 msgstr "Descuento añadido"
 
@@ -119,7 +119,7 @@ msgstr "Descuento borrado"
 
 #: admin/Discounts.php:69
 #: admin/Discounts.php:203
-#: admin/Discounts.php:419
+#: admin/Discounts.php:420
 msgid "Discount modified"
 msgstr "Descuento modificado"
 
@@ -127,8 +127,8 @@ msgstr "Descuento modificado"
 #: admin/Discounts.php:87
 #: admin/Discounts.php:218
 #: admin/Discounts.php:227
-#: admin/Discounts.php:433
-#: admin/Discounts.php:445
+#: admin/Discounts.php:434
+#: admin/Discounts.php:446
 msgid "Active"
 msgstr "Activo"
 
@@ -139,8 +139,8 @@ msgstr "Mayor que"
 
 #: admin/Discounts.php:79
 #: admin/Discounts.php:89
-#: admin/Discounts.php:435
-#: admin/Discounts.php:447
+#: admin/Discounts.php:436
+#: admin/Discounts.php:448
 msgid "Discount"
 msgstr "Descuento"
 
@@ -151,13 +151,13 @@ msgstr "Máximo"
 
 #: admin/Discounts.php:117
 #: admin/Discounts.php:265
-#: admin/Discounts.php:480
+#: admin/Discounts.php:481
 msgid "modify"
 msgstr "modificar"
 
 #: admin/Discounts.php:118
 #: admin/Discounts.php:266
-#: admin/Discounts.php:481
+#: admin/Discounts.php:482
 msgid "delete"
 msgstr "borrar"
 
@@ -168,25 +168,25 @@ msgstr "¿Realmente quiere borrar este descuento?"
 
 #: admin/Discounts.php:121
 #: admin/Discounts.php:269
-#: admin/Discounts.php:484
+#: admin/Discounts.php:485
 msgid "Yes"
 msgstr "Si"
 
 #: admin/Discounts.php:122
 #: admin/Discounts.php:270
-#: admin/Discounts.php:485
+#: admin/Discounts.php:486
 msgid "No, I don't"
 msgstr "No"
 
 #: admin/Discounts.php:129
 #: admin/Discounts.php:277
-#: admin/Discounts.php:493
+#: admin/Discounts.php:494
 msgid "Add new discount"
 msgstr "Añadir nuevo descuento"
 
 #: admin/Discounts.php:146
-#: admin/Discounts.php:332
-#: admin/Discounts.php:530
+#: admin/Discounts.php:333
+#: admin/Discounts.php:531
 msgid "add"
 msgstr "añadir"
 
@@ -225,87 +225,89 @@ msgstr "Tipo"
 msgid "Value"
 msgstr "Valor"
 
-#: admin/Discounts.php:297
-msgid "Options"
-msgstr "Opciones"
-
-#: admin/Discounts.php:303
+#: admin/Discounts.php:250
+#: admin/Discounts.php:294
+#: admin/Discounts.php:304
 msgid "All"
 msgstr "Todo"
 
-#: admin/Discounts.php:339
+#: admin/Discounts.php:298
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/Discounts.php:340
 msgid "Coupons"
 msgstr "Cupones"
 
-#: admin/Discounts.php:356
+#: admin/Discounts.php:357
 msgid "The Coupon Code field must contain a text"
 msgstr "El campo código de cupones debe contener un texto"
 
-#: admin/Discounts.php:360
+#: admin/Discounts.php:361
 msgid "The Coupon Code exists"
 msgstr "El código de cupón existe"
 
-#: admin/Discounts.php:366
-#: admin/Discounts.php:396
+#: admin/Discounts.php:367
+#: admin/Discounts.php:397
 msgid "The From Date field must contain a valid date"
 msgstr "El campo fecha desde deben contener una fecha válida"
 
-#: admin/Discounts.php:369
-#: admin/Discounts.php:399
+#: admin/Discounts.php:370
+#: admin/Discounts.php:400
 msgid "The To Date field must contain a valid date"
 msgstr "El campo fecha hasta  debe contener una fecha válida"
 
-#: admin/Discounts.php:426
+#: admin/Discounts.php:427
 msgid "Coupon deleted"
 msgstr "Descuento borrado"
 
-#: admin/Discounts.php:436
-#: admin/Discounts.php:448
+#: admin/Discounts.php:437
+#: admin/Discounts.php:449
 msgid "From date"
 msgstr "Fecha desde"
 
-#: admin/Discounts.php:437
-#: admin/Discounts.php:449
+#: admin/Discounts.php:438
+#: admin/Discounts.php:450
 msgid "To date"
 msgstr "Fecha hasta"
 
-#: admin/Discounts.php:438
-#: admin/Discounts.php:450
+#: admin/Discounts.php:439
+#: admin/Discounts.php:451
 msgid "Uses per coupon"
 msgstr "Usos por cupón"
 
-#: admin/Discounts.php:439
-#: admin/Discounts.php:451
+#: admin/Discounts.php:440
+#: admin/Discounts.php:452
 msgid "Uses per user"
 msgstr "Usos por usuario"
 
-#: admin/Discounts.php:466
-#: admin/Discounts.php:503
+#: admin/Discounts.php:467
+#: admin/Discounts.php:504
 msgid "type"
 msgstr "tipo"
 
-#: admin/Discounts.php:483
+#: admin/Discounts.php:484
 msgid "Do you really want to delete this coupon?"
 msgstr "¿Realmente quiere borrar este descuento?"
 
-#: admin/Discounts.php:513
+#: admin/Discounts.php:514
 msgid "Format YYYY/MM/DD"
 msgstr "Formato AAAA/MM/DD"
 
-#: admin/Discounts.php:517
+#: admin/Discounts.php:518
 msgid "Format YYYY/MM/DD, or leave to blank to have no end."
 msgstr "Formato AAAA/MM/DD, o dejar vacío para no tener fecha fin"
 
-#: admin/Discounts.php:521
-#: admin/Discounts.php:526
+#: admin/Discounts.php:522
+#: admin/Discounts.php:527
 msgid "To set no limit leave this field to -1 or blank."
 msgstr "Para dejar sin límites este campo debe contener un -1 o dejarse en blanco"
 
-#: admin/Discounts.php:525
+#: admin/Discounts.php:526
 msgid "This value will be used only for registered users."
 msgstr "Este valor se usará únicamente para usuarios registrados"
 
-#: admin/Discounts.php:527
+#: admin/Discounts.php:528
 msgid "The zero value has no sense."
 msgstr "El valor cero no tiene sentido"
 

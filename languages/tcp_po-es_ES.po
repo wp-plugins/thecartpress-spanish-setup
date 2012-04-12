@@ -2,194 +2,128 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tcp_po\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-11 09:58+0100\n"
+"POT-Creation-Date: 2012-04-12 08:54+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: sensei <sensei@thecartpress.com>\n"
+"Last-Translator: Sensei <sensei@thecartpress.com>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;_x:2c,1\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ../../thecartpress-productoptions/\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: ProductOptionsForTheCartPress.class.php:66
+#: ProductOptionsForTheCartPress.class.php:41
 msgid "Options type"
 msgstr "Tipo de opciones"
 
-#: ProductOptionsForTheCartPress.class.php:73
+#: ProductOptionsForTheCartPress.class.php:48
 msgid "Single"
 msgstr "Individual"
 
-#: ProductOptionsForTheCartPress.class.php:75
+#: ProductOptionsForTheCartPress.class.php:51
 msgid "Double"
 msgstr "Doble"
 
-#: ProductOptionsForTheCartPress.class.php:80
+#: ProductOptionsForTheCartPress.class.php:54
+msgid "List"
+msgstr "Lista"
+
+#: ProductOptionsForTheCartPress.class.php:59
 msgid "list of Options"
 msgstr "Lista de Opciones"
 
-#: ProductOptionsForTheCartPress.class.php:89
-#: ProductOptionsForTheCartPress.class.php:100
-#: ProductOptionsForTheCartPress.class.php:109
+#: ProductOptionsForTheCartPress.class.php:67
+#: ProductOptionsForTheCartPress.class.php:77
+#: ProductOptionsForTheCartPress.class.php:92
 #: customposttypes/OptionCustomPostType.class.php:55
 msgid "options"
 msgstr "opciones"
 
-#: ProductOptionsForTheCartPress.class.php:218
-#: ProductOptionsForTheCartPress.class.php:295
+#: ProductOptionsForTheCartPress.class.php:85
+msgid "Manage options"
+msgstr "Editar opciones"
+
+#: ProductOptionsForTheCartPress.class.php:343
+#: ProductOptionsForTheCartPress.class.php:420
 msgid "Apply to options"
 msgstr "Aplicar a las opciones"
 
-#: ProductOptionsForTheCartPress.class.php:343
-#: ProductOptionsForTheCartPress.class.php:344
-#: ProductOptionsForTheCartPress.class.php:365
-#: ProductOptionsForTheCartPress.class.php:366
+#: ProductOptionsForTheCartPress.class.php:468
+#: ProductOptionsForTheCartPress.class.php:469
+#: ProductOptionsForTheCartPress.class.php:490
+#: ProductOptionsForTheCartPress.class.php:491
 msgid "units"
 msgstr "unidades"
 
-#: ProductOptionsForTheCartPress.class.php:345
-#: ProductOptionsForTheCartPress.class.php:367
+#: ProductOptionsForTheCartPress.class.php:470
+#: ProductOptionsForTheCartPress.class.php:492
 msgid "no stock"
 msgstr "sin stock"
 
-#: ProductOptionsForTheCartPress.class.php:401
-#: ProductOptionsForTheCartPress.class.php:440
+#: ProductOptionsForTheCartPress.class.php:527
+#: ProductOptionsForTheCartPress.class.php:569
 #, php-format
-msgctxt "min_price to max_price"
 msgid "%s to %s"
 msgstr "%s a %s"
 
-#: ProductOptionsForTheCartPress.class.php:475
-#: ProductOptionsForTheCartPress.class.php:484
+#: ProductOptionsForTheCartPress.class.php:628
 msgid "<strong>Product Options for TheCartPress</strong> requires TheCartPress plugin is activated."
 msgstr "<strong>Opciones de productos para TheCartPress</strong> requiere el plugin TheCartPress plugin activado."
 
-#: ProductOptionsForTheCartPress.class.php:476
-msgid "The plugin has been <strong>deactivated</strong>"
-msgstr "El plugin ha sido <strong>desactivado</strong>"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:24
-msgid "Option Custom Fields"
-msgstr "Campos de las Opciones"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:40
-msgid "After saving the title and content, you will be able to edit the specific fields of the option."
-msgstr "Una vez gravado el título u el contenido, usted podrá editar los campos específicos de la opción"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:60
-#: metaboxes/OptionCustomFieldsMetabox.class.php:63
-#, php-format
-msgid "return to %s"
-msgstr "volver a %s"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:66
-msgid "return to Options list"
-msgstr "volver a las lista de opciones"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:68
-msgid "create a new 'sister' option"
-msgstr "crear una nueva opción 'hermana'"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:68
-#: admin/OptionsList.php:171
-msgid "create new option"
-msgstr "crear una nueva opción"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:71
-msgid "create a new second level option"
-msgstr "crear una nueva opción de segundo nivel"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:71
-#: admin/OptionsList.php:262
-msgid "create child option"
-msgstr "crear una opción hija"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:83
-msgid "Price"
-msgstr "Precio"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:86
-msgid "This price will be added to the price of the parent."
-msgstr "Este precio será sumado al precio del padre."
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:89
-msgid "Weight"
-msgstr "Peso"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:92
-msgid "If value is zero then the weight will be the weight of the parent. This weight will not be added to the weight of the parent anyway."
-msgstr "Si el valor es cero entonces el peso será el del padre. Este peso no será añadido al peso del padre de ninguna manera."
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:95
-msgid "Order"
-msgstr "Orden"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:99
-msgid "Sku"
-msgstr "Sku"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:103
-msgid "Stock"
-msgstr "Stock"
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:106
-#, php-format
-msgid "Stock management is disabled. See the <a href=\"%s\">settings</a> page to change this value."
-msgstr "El tratamiento del stock está desabilitado. visite la página de  <a href=\"%s\">propiedades</a> para cabiar dicho valor."
-
-#: metaboxes/OptionCustomFieldsMetabox.class.php:109
-msgid "Use value -1 (or left blank) for stores/products with no stock management."
-msgstr "Use valor -1 (o deje el campo en blanco) para tiendas o productos sin tratamiento de stock."
-
-#: admin/OptionsList.php:73
+#: admin/OptionsList.php:72
 msgid "Relation created"
 msgstr "Relación creada"
 
-#: admin/OptionsList.php:87
+#: admin/OptionsList.php:86
 msgid "Relation deleted"
 msgstr "Relación borrada"
 
-#: admin/OptionsList.php:103
+#: admin/OptionsList.php:102
 msgid "Children deleted"
 msgstr "Hijos borrados"
 
-#: admin/OptionsList.php:118
+#: admin/OptionsList.php:117
 msgid "Options copied"
 msgstr "Opciones copiadas"
 
-#: admin/OptionsList.php:132
+#: admin/OptionsList.php:131
 msgid "Options created"
 msgstr "Opciones creadas"
 
-#: admin/OptionsList.php:146
+#: admin/OptionsList.php:144
 msgid "Price and Order updated"
 msgstr "Precio y orden actualizados"
 
-#: admin/OptionsList.php:167
+#: admin/OptionsList.php:165
 msgid "Options for"
 msgstr "Opciones para"
 
-#: admin/OptionsList.php:169
+#: admin/OptionsList.php:167
 msgid "return to the product"
 msgstr "volver al producto"
 
-#: admin/OptionsList.php:178
+#: admin/OptionsList.php:169
+#: metaboxes/OptionCustomFieldsMetabox.class.php:61
+msgid "create new option"
+msgstr "crear una nueva opción"
+
+#: admin/OptionsList.php:176
 #: admin/OptionsPostsList.php:56
 msgid "Category"
 msgstr "Categoría"
 
-#: admin/OptionsList.php:180
+#: admin/OptionsList.php:178
 #: admin/OptionsPostsList.php:58
 msgid "no one selected"
 msgstr "ninguno seleccionado"
 
-#: admin/OptionsList.php:186
+#: admin/OptionsList.php:184
 msgid "filter"
 msgstr "filtro"
 
-#: admin/OptionsList.php:188
+#: admin/OptionsList.php:186
 msgid "product"
 msgstr "producto"
 
@@ -202,92 +136,100 @@ msgid "copy"
 msgstr "copiar"
 
 #: admin/OptionsList.php:211
-#: admin/OptionsList.php:351
+#: admin/OptionsList.php:338
 msgid "modify all"
 msgstr "modificar todo"
 
 #: admin/OptionsList.php:215
-#: admin/OptionsList.php:225
+#: admin/OptionsList.php:226
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: admin/OptionsList.php:216
+#: admin/OptionsList.php:227
 #: customposttypes/OptionCustomPostType.class.php:42
 msgid "Option"
 msgstr "Opción"
 
-#: admin/OptionsList.php:216
-#: admin/OptionsList.php:226
+#: admin/OptionsList.php:217
+#: admin/OptionsList.php:228
 msgid "Description"
 msgstr "Descripción"
 
-#: admin/OptionsList.php:217
-#: admin/OptionsList.php:227
+#: admin/OptionsList.php:218
+#: admin/OptionsList.php:229
 msgid "Status"
 msgstr "Estado"
 
-#: admin/OptionsList.php:218
-#: admin/OptionsList.php:228
+#: admin/OptionsList.php:219
+#: admin/OptionsList.php:230
 msgid "Price and order"
 msgstr "Precio y orden"
 
-#: admin/OptionsList.php:249
-#: admin/OptionsList.php:317
-msgctxt "to sort lists"
-msgid "Order"
-msgstr "Orden"
-
-#: admin/OptionsList.php:250
-#: admin/OptionsList.php:318
-msgid "modify"
-msgstr "modificar"
-
-#: admin/OptionsList.php:254
-#: admin/OptionsList.php:323
+#: admin/OptionsList.php:241
+#: admin/OptionsList.php:242
+#: admin/OptionsList.php:253
+#: admin/OptionsList.php:301
+#: admin/OptionsList.php:302
+#: admin/OptionsList.php:312
 msgid "edit option"
 msgstr "editar opción"
 
-#: admin/OptionsList.php:257
-#: admin/OptionsList.php:326
+#: admin/OptionsList.php:250
+#: admin/OptionsList.php:309
+#: metaboxes/OptionCustomFieldsMetabox.class.php:86
+msgid "Order"
+msgstr "Orden"
+
+#: admin/OptionsList.php:256
+#: admin/OptionsList.php:315
 msgid "delete option"
 msgstr "borrar opción"
 
-#: admin/OptionsList.php:259
+#: admin/OptionsList.php:258
 msgid "delete children"
 msgstr "borrar hijos"
 
-#: admin/OptionsList.php:269
+#: admin/OptionsList.php:261
+#: metaboxes/OptionCustomFieldsMetabox.class.php:64
+msgid "create child option"
+msgstr "crear una opción hija"
+
+#: admin/OptionsList.php:267
 msgid "copy from"
 msgstr "copiar desde"
 
-#: admin/OptionsList.php:287
+#: admin/OptionsList.php:282
 msgid "Do you really want to delete this option?"
 msgstr "¿Realmente quiere borrar esta opción?"
 
-#: admin/OptionsList.php:288
-#: admin/OptionsList.php:299
-#: admin/OptionsList.php:334
+#: admin/OptionsList.php:283
+#: admin/OptionsList.php:292
+#: admin/OptionsList.php:322
 msgid "Yes"
 msgstr "Si"
 
-#: admin/OptionsList.php:289
-#: admin/OptionsList.php:300
-#: admin/OptionsList.php:335
+#: admin/OptionsList.php:284
+#: admin/OptionsList.php:293
+#: admin/OptionsList.php:323
 msgid "No, I don't"
 msgstr "No"
 
-#: admin/OptionsList.php:298
+#: admin/OptionsList.php:291
 msgid "Do you really want to delete those children?"
 msgstr "¿Realmente quiere borrar los hijos?"
 
-#: admin/OptionsList.php:333
+#: admin/OptionsList.php:321
 msgid "Do you really want to delete the option?"
 msgstr "¿Realmente quiere borrar la opción?"
 
-#: admin/OptionsList.php:346
+#: admin/OptionsList.php:333
 msgid "The options list is empty"
 msgstr "La lista de opciones está vacía"
 
 #: admin/OptionsPostsList.php:35
-#, fuzzy
 msgid "Options Posts Update"
-msgstr "Tipo de opciones"
+msgstr "Actualizar Tipo de Opciones"
 
 #: admin/OptionsPostsList.php:40
 msgid "Post type"
@@ -348,6 +290,52 @@ msgstr "Sin productos para modificar"
 msgid "First, you must perform a search:"
 msgstr "Primero, debe realizar una búsqueda"
 
+#: metaboxes/OptionCustomFieldsMetabox.class.php:22
+msgid "Option Custom Fields"
+msgstr "Campos de las Opciones"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:34
+msgid "After saving the title and content, you will be able to edit the specific fields of the option."
+msgstr "Una vez gravado el título u el contenido, usted podrá editar los campos específicos de la opción"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:53
+#: metaboxes/OptionCustomFieldsMetabox.class.php:56
+#, php-format
+msgid "return to %s"
+msgstr "volver a %s"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:59
+msgid "return to Options list"
+msgstr "volver a las lista de opciones"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:61
+msgid "create a new 'sister' option"
+msgstr "crear una nueva opción 'hermana'"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:64
+msgid "create a new second level option"
+msgstr "crear una nueva opción de segundo nivel"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:76
+msgid "Price"
+msgstr "Precio"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:78
+msgid "This price will be added to the price of the parent."
+msgstr "Este precio será sumado al precio del padre."
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:81
+msgid "Weight"
+msgstr "Peso"
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:83
+msgid "If value is zero then the weight will be the weight of the parent. This weight will not be added to the weight of the parent anyway."
+msgstr "Si el valor es cero entonces el peso será el del padre. Este peso no será añadido al peso del padre de ninguna manera."
+
+#: metaboxes/OptionCustomFieldsMetabox.class.php:90
+msgid "Sku"
+msgstr "Sku"
+
 #: customposttypes/OptionCustomPostType.class.php:28
 msgctxt "post type general name"
 msgid "Options"
@@ -391,7 +379,32 @@ msgstr "No hay opciones en la papelera"
 msgid "Options"
 msgstr "Opciones"
 
+#~ msgid "The plugin has been <strong>deactivated</strong>"
+#~ msgstr "El plugin ha sido <strong>desactivado</strong>"
+
+#~ msgid "Stock"
+#~ msgstr "Stock"
+
+#~ msgid ""
+#~ "Stock management is disabled. See the <a href=\"%s\">settings</a> page to "
+#~ "change this value."
+#~ msgstr ""
+#~ "El tratamiento del stock está desabilitado. visite la página de  <a href="
+#~ "\"%s\">propiedades</a> para cabiar dicho valor."
+
+#~ msgid ""
+#~ "Use value -1 (or left blank) for stores/products with no stock management."
+#~ msgstr ""
+#~ "Use valor -1 (o deje el campo en blanco) para tiendas o productos sin "
+#~ "tratamiento de stock."
+#~ msgctxt "to sort lists"
+
+#~ msgid "Order"
+#~ msgstr "Orden"
+
+#~ msgid "modify"
+#~ msgstr "modificar"
 #~ msgctxt "product"
+
 #~ msgid "Add New Option"
 #~ msgstr "Añadir nueva opción"
-
