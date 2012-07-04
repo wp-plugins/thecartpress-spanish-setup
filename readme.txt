@@ -1,9 +1,10 @@
 === Spanish eCommerce for TheCartPress ===
 Contributors: thecartpress
+Donate link: http://thecartpress.com/collaborate-to-grow-and-support-thecartpress/
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
-Tested up to: 3.3
-Stable Tag: 1.1.8.1
+Tested up to: 3.4
+Stable Tag: 1.2
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
@@ -45,8 +46,10 @@ This plugin is released under a GPL license.
 
 == Screenshots ==
 
-
 == Changelog ==
+= 1.2 =
+Supports TheCartPress 1.2
+
 = 1.1.8.1 =
 Supports TheCartPress 1.1.8.1
 

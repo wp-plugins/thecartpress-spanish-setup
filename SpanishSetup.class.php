@@ -3,7 +3,7 @@
 Plugin Name: TheCartPress Spanish Setup
 Plugin URI: http://thecartpress.com
 Description: TheCartPress Spanish Setup
-Version: 1.1.8.1
+Version: 1.2
 Author: TheCartPress team
 Author URI: http://thecartpress.com
 License: GPL
@@ -31,6 +31,25 @@ define( 'TCP_SPANISH_FOLDER', dirname( __FILE__ ) . '/languages/' );
 
 class TCPSpanishSetup {
 
+	function __construct() {
+		if ( is_admin() ) {
+			add_action( 'admin_menu', array( &$this, 'admin_menu' ), 99 );
+			//add_filter( 'mu_dropdown_languages', array( &$this, 'mu_dropdown_languages' ) , 10, 3 );
+		}
+		add_filter( 'locale', array( &$this, 'locale' ) );
+		add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
+		add_action( 'tcp_states_loading', array( $this, 'tcp_states_loading' ) );
+	}
+
+	function locale( $locale ) {
+		return 'es_ES';
+	}
+
+	/*function mu_dropdown_languages( $output, $lang_files, $current ) {
+		$out = '<option value="es_ES"' . selected( $current, 'es_ES', false ) . '>Español</option>';
+		return $out . $output;
+	}*/
+
 	function admin_menu() {
 		global $thecartpress;
 		if ( $thecartpress ) {
@@ -41,9 +60,10 @@ class TCPSpanishSetup {
 
 	function load_textdomain_mofile( $moFile, $domain ) {
 		if ( 'tcp' == substr( $domain, 0, 3 ) ) {
-			$wplang = get_option( 'WPLANG', WPLANG );
+			$wplang = get_option( 'WPLANG', get_locale() );
+			if ( strlen( $wplang ) == 0 ) $wplang = get_locale();
 			$is_spanish = 'es_' == substr( $wplang, 0, 3 );
-			if ( function_exists( 'tcp_get_current_language_iso' ) ) $is_spanish = 'es' == tcp_get_current_language_iso();
+			if ( !$is_spanish && function_exists( 'tcp_get_current_language_iso' ) ) $is_spanish = 'es' == tcp_get_current_language_iso();
 			if ( $is_spanish ) {
 				$new_mofile = TCP_SPANISH_FOLDER . $domain . '-' . $wplang . '.mo';
 				if ( is_readable( $new_mofile ) ) return $new_mofile;
@@ -52,7 +72,9 @@ class TCPSpanishSetup {
 		return $moFile;
 	}
 
+
 	function tcp_states_loading() { ?>
+
 , 'ES' : { //Spain
 	'C' : 'La Coruña', 'VI' : 'Álava', 'AB' : 'Albacete', 'A' : 'Alicante', 'AL' : 'Almería', 'O' : 'Asturias',
 	'AV' : 'Ávila', 'BA' : 'Badajoz', 'PM' : 'Islas Baleares', 'B' : 'Barcelona', 'BU' : 'Burgos', 'CC' : 'Cáceres',
@@ -62,13 +84,9 @@ class TCPSpanishSetup {
 	'M' : 'Madrid', 'MA' : 'Málaga', 'ML' : 'Melilla', 'MU' : 'Murcia', 'NA' : 'Navarra', 'OR' : 'Orense', 'P' : 'Palencia',
 	'PO' : 'Pontevedra', 'SA' : 'Salamanca', 'TF' : 'Santa Cruz de Tenerife', 'SG' : 'Segovia', 'SE' : 'Sevilla', 'SO' : 'Soria',
 	'T' : 'Tarragona', 'TE' : 'Teruel', 'TO' : 'Toledo', 'V' : 'Valencia', 'VA' : 'Valladolid', 'BI' : 'Vizcaya', 'ZA' : 'Zamora', 'Z' : 'Zaragoza'
-} <?php
-	}
-	function __construct() {
-		if ( is_admin() ) add_action( 'admin_menu', array( $this, 'admin_menu' ), 99 );
-		add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
-		add_action( 'tcp_states_loading', array( $this, 'tcp_states_loading' ) );
-	}
+}
+
+<?php }
 }
 
 new TCPSpanishSetup();
