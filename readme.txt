@@ -4,7 +4,7 @@ Donate link: http://thecartpress.com/collaborate-to-grow-and-support-thecartpres
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
 Tested up to: 3.4.1
-Stable Tag: 1.2.4
+Stable Tag: 1.2.4.1
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
@@ -47,6 +47,9 @@ This plugin is released under a GPL license.
 == Screenshots ==
 
 == Changelog ==
+= 1.2.4.1 =
+Supports TheCartPress-DynamicOption 1.0.9
+
 = 1.2.4 =
 Supports TheCartPress 1.2.4
 
