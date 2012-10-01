@@ -3,7 +3,7 @@
 Plugin Name: TheCartPress Spanish Setup
 Plugin URI: http://thecartpress.com
 Description: TheCartPress Spanish Setup
-Version: 1.2
+Version: 1.2.5
 Author: TheCartPress team
 Author URI: http://thecartpress.com
 License: GPL
