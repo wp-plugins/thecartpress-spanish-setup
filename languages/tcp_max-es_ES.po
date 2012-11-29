@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tcp_max\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-01 10:31+0100\n"
+"POT-Creation-Date: 2012-11-14 22:17+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: sensei <sensei@thecartpress.com>\n"
 "Language-Team: \n"
@@ -12,60 +12,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../../\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: thecartpress-sales-limits\n"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:62
+#: thecartpress-sales-limits/SalesLimits.class.php:64
 msgid "<strong>Limits for TheCartPress</strong> requires TheCartPress plugin is activated."
 msgstr "<strong>Límites de ventas para TheCartPress</strong> requiere el plugin de TheCartPress esté activado."
 
-#: thecartpress-sales-limits/SalesLimits.class.php:138
+#: thecartpress-sales-limits/SalesLimits.class.php:140
 #, php-format
 msgid "Sorry, orders over %1$s %2$s cannot be accepted"
 msgstr "Lo siento, pedidos superiores a %1$s %2$s no pueden ser aceptados"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:144
+#: thecartpress-sales-limits/SalesLimits.class.php:146
 #, php-format
 msgid "Sorry, orders over %1$s cannot be accepted"
 msgstr "Lo siento, pedidos superiores a %1$s no pueden ser aceptados"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:152
+#: thecartpress-sales-limits/SalesLimits.class.php:154
 #, php-format
 msgid "Sorry, orders under %1$s %2$s will be recharged with %3$s"
 msgstr "Lo siento, pedidos por debajo de %1$s %2$s tendrán un recargo de %3$s"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:159
+#: thecartpress-sales-limits/SalesLimits.class.php:161
 #, php-format
 msgid "Sorry, orders under %1$s will be recharged with %2$s"
 msgstr "Lo siento, pedidos por debajo de %1$s tendrán un recargo de %2$s"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:171
+#: thecartpress-sales-limits/SalesLimits.class.php:173
 #, php-format
 msgid "Sorry, orders under %1$s cannot be accepted"
 msgstr "Lo siento, pedidos por debajo de %1$s no pueden ser aceptados"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:178
+#: thecartpress-sales-limits/SalesLimits.class.php:180
 msgid "See limits notices"
 msgstr "Ver los avisos"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:188
+#: thecartpress-sales-limits/SalesLimits.class.php:190
 msgid "Settings"
 msgstr "Propiedades"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:201
+#: thecartpress-sales-limits/SalesLimits.class.php:203
 msgid "Minimum weight fee"
 msgstr "Recargo por no exceder el peso mínimo"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:209
-msgid "Minimum Price fee"
-msgstr "Recargo por no exceder el precio mínimo"
+#: thecartpress-sales-limits/SalesLimits.class.php:211
+msgid "Minimum price fee"
+msgstr "Recargo por exceder el precio mínimo"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:26
 msgid "Limits"
 msgstr "Límites"
-
-#: thecartpress-sales-limits/admin/MAXSettings.class.php:34
-msgid "Lmits Setup"
-msgstr "Configuración de Límites"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:34
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:59
@@ -128,6 +127,9 @@ msgstr "El recargo será aplicado si el peso mínimo no es excedido. Si este val
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:119
 msgid "Maximum Weight"
 msgstr "Peso máximo"
+
+#~ msgid "Lmits Setup"
+#~ msgstr "Configuración de Límites"
 
 #~ msgid "Limits settings"
 #~ msgstr "Propiedades de Límites"

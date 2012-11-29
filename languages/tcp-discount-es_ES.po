@@ -12,9 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
-"X-Poedit-Basepath: ../../thecartpress-discounts/\n"
+"X-Poedit-Basepath: ../../\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: discount-for-thecartpress\n"
 
 #: TCPDiscount.class.php:74
 msgid "<strong>Discount for TheCartPress</strong> requires TheCartPress plugin is activated."

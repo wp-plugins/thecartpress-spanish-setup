@@ -3,7 +3,7 @@
 Plugin Name: TheCartPress Spanish Setup
 Plugin URI: http://thecartpress.com
 Description: TheCartPress Spanish Setup
-Version: 1.2.5
+Version: 1.2.6
 Author: TheCartPress team
 Author URI: http://thecartpress.com
 License: GPL
@@ -32,13 +32,15 @@ define( 'TCP_SPANISH_FOLDER', dirname( __FILE__ ) . '/languages/' );
 class TCPSpanishSetup {
 
 	function __construct() {
-		if ( is_admin() ) {
-			add_action( 'admin_menu', array( &$this, 'admin_menu' ), 99 );
-			//add_filter( 'mu_dropdown_languages', array( &$this, 'mu_dropdown_languages' ) , 10, 3 );
-		}
+		add_action( 'init', array( &$this, 'init' ) );
+		add_action( 'admin_menu', array( &$this, 'admin_menu' ), 99 );
+		add_filter( 'load_textdomain_mofile', array( &$this, 'load_textdomain_mofile' ), 10, 2 );
+		//add_filter( 'mu_dropdown_languages', array( &$this, 'mu_dropdown_languages' ) , 10, 3 );
+	}
+
+	function init() {
 		add_filter( 'locale', array( &$this, 'locale' ) );
-		add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
-		add_action( 'tcp_states_loading', array( $this, 'tcp_states_loading' ) );
+		add_action( 'tcp_states_loading', array( &$this, 'tcp_states_loading' ) );
 	}
 
 	function locale( $locale ) {
@@ -60,10 +62,13 @@ class TCPSpanishSetup {
 
 	function load_textdomain_mofile( $moFile, $domain ) {
 		if ( 'tcp' == substr( $domain, 0, 3 ) ) {
+//if ( $domain == 'tcp_max') echo '<br>', $moFile;
+//if ( $domain == 'tcp') echo '<br>', $moFile;
+//if ( $domain == 'tcp-discount') echo '<br>', $moFile;
 			$wplang = get_option( 'WPLANG', get_locale() );
 			if ( strlen( $wplang ) == 0 ) $wplang = get_locale();
 			$is_spanish = 'es_' == substr( $wplang, 0, 3 );
-			if ( !$is_spanish && function_exists( 'tcp_get_current_language_iso' ) ) $is_spanish = 'es' == tcp_get_current_language_iso();
+			if ( ! $is_spanish && function_exists( 'tcp_get_current_language_iso' ) ) $is_spanish = 'es' == tcp_get_current_language_iso();
 			if ( $is_spanish ) {
 				$new_mofile = TCP_SPANISH_FOLDER . $domain . '-' . $wplang . '.mo';
 				if ( is_readable( $new_mofile ) ) return $new_mofile;
