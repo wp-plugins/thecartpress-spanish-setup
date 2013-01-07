@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tcp-tierprice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-03 15:06+0100\n"
+"PO-Revision-Date: 2013-01-03 15:18+0100\n"
+"Last-Translator: sensei <sensei@thecartpress.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-SearchPath-0: thecartpress-tierprices\n"
+
+#: thecartpress-tierprices/TierPrices.class.php:81
+msgid "Tier Price"
+msgstr "Precios por cantidad"
+
+#: thecartpress-tierprices/TierPrices.class.php:104
+msgid "Activate Special Price"
+msgstr "Activar precios especiales"
+
+#: thecartpress-tierprices/TierPrices.class.php:109
+msgid "Special Price"
+msgstr "Precios Especiales"
+
+#: thecartpress-tierprices/TierPrices.class.php:114
+msgid "Special Price activated"
+msgstr "Precios especiales activados"
+
+#: thecartpress-tierprices/TierPrices.class.php:120
+msgid "Special Price From Date"
+msgstr "Precio Especial, Fecha Desde"
+
+#: thecartpress-tierprices/TierPrices.class.php:124
+#: thecartpress-tierprices/TierPrices.class.php:133
+msgid "Date format: YYYY-MM-DD"
+msgstr "Formato fecha: YYYY-MM-DD"
+
+#: thecartpress-tierprices/TierPrices.class.php:129
+msgid "Special Price To Date"
+msgstr "Precio Especial, Fecha Hasta"
+
+#: thecartpress-tierprices/TierPrices.class.php:138
+msgid "Activate Tier Price"
+msgstr "Activas Precios por Cantidad"
+
+#: thecartpress-tierprices/TierPrices.class.php:142
+#: thecartpress-tierprices/TierPrices.class.php:177
+msgid "Qty"
+msgstr "Unidades"
+
+#: thecartpress-tierprices/TierPrices.class.php:143
+#: thecartpress-tierprices/TierPrices.class.php:178
+msgid "Price"
+msgstr "Precio"
+
+#: thecartpress-tierprices/TierPrices.class.php:144
+#: thecartpress-tierprices/TierPrices.class.php:179
+msgid "Action"
+msgstr "Acción"
+
+#: thecartpress-tierprices/TierPrices.class.php:152
+#: thecartpress-tierprices/TierPrices.class.php:166
+#: thecartpress-tierprices/TierPrices.class.php:204
+msgid "and above"
+msgstr "y por debajo"
+
+#: thecartpress-tierprices/TierPrices.class.php:154
+#: thecartpress-tierprices/TierPrices.class.php:206
+msgid "Delete"
+msgstr "Borrar"
+
+#: thecartpress-tierprices/TierPrices.class.php:159
+msgid "No prices"
+msgstr "Sin precios"
+
+#: thecartpress-tierprices/TierPrices.class.php:172
+msgid "Insert"
+msgstr "Insertar"
+
+#: thecartpress-tierprices/templates/templates.php:86
+#, php-format
+msgid "Buy %s for %s each and <strong>save %s</strong>"
+msgstr "Comparar %s por %s cada uno y <strong>ahorre %s</strong>"
+
