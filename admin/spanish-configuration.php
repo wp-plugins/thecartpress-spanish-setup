@@ -51,8 +51,13 @@ update_option( 'tcp_settings', $settings );
 global $thecartpress;
 if ( $thecartpress ) $thecartpress->load_settings();
 endif; ?>
+<style>
+div#icon-tcp-es {
+	background: url('<?php echo plugins_url( '../images/es_32.png', __FILE__ ); ?>') no-repeat center;
+}
+</style>
 <div class="wrap">
-	<h2>Configuracion para España</h2>
+	<?php screen_icon( 'tcp-es' ); ?><h2>Configuracion para España</h2>
 	<ul class="subsubsub"></ul>
 	<div class="clear"></div>
 	<p>Esta pantalla permite configurar TheCartPress para el mercado Español.</p>
