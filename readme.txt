@@ -3,28 +3,29 @@ Contributors: thecartpress
 Donate link: http://thecartpress.com/collaborate-to-grow-and-support-thecartpress/
 Tags: Spanish, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
-Tested up to: 3.5.2
-Stable Tag: 1.3
+Tested up to: 4.3
+Stable Tag: 1.4
 
 Spanish setup for TheCartPress, eCommerce Shopping Cart
 
 == Description ==
 
-Spanish setup for TheCartPress adds a button to configure the stores with Spanish currency, etc.
-Also, it adds Spanish regions
+Spanish setup for TheCartPress adds a button to configure the stores with Euro currency and any other Spanish regional settings.
+Also, it adds Spanish regions.
 
 TheCartPress is the Professional WordPress eCommerce Plugin. Use it as shopping cart, catalog or framework.
 
-* [TheCartPress Extend](http://extend.thecartpress.com): plugins, themes and custom development
-* [TheCartPress Demo](http://demo.thecartpress.com)
-* [TheCartPress Community/Support](http://community.thecartpress.com/activity/)
+* [TheCartPress Extend](http://thecartpress.com/extend): plugins, themes and custom development
+* [TheCartPress Demo](http://thecartpress.com/demo)
 * [TheCartPress Site](http://thecartpress.com)
+* [TheCartPress Site](http://pluginsmaker.com)
 
 = More info and Community =
-[TheCartPress Extend](http://extend.thecartpress.com): plugins, themes and custom development
-[TheCartPress Demo](http://demo.thecartpress.com)
-[TheCartPress Community/Support](http://community.thecartpress.com/activity/)
+[TheCartPress Extend](http://thecartpress.com/extend): plugins, themes and custom development
+[TheCartPress Demo](http://thecartpress.com/demo)
 [TheCartPress Site](http://thecartpress.com)
+[Pluginsmaker Site](http://pluginsmaker.com)
+
 
 == Installation ==
 
@@ -48,6 +49,10 @@ This plugin is released under a GPL license.
 1. Spanish setup for ecommerce
 
 == Changelog ==
+= 1.4 =
+* Supports WordPress 4.3
+* Pluginsmaker Support
+
 = 1.3 =
 * Removed language support, only locale settings
 
